@@ -1,0 +1,35 @@
+/*
+	.7rem ->28px
+	.6rem ->24px
+	
+*/
+
+*{margin:0;padding:0;}
+.header{position:fixed;top:0;left:0;right:0;font-size: .7rem;height:2.4rem;line-height:2.4rem; background: #fff;z-index: 20;border-bottom: 1px solid #eaeaea;display:-webkit-box;display:box;}
+.item{
+		font-size: .7rem;
+		line-height: .95rem;
+		font-weight: 300;
+		padding: .45rem;
+		color: #999;
+		border-bottom: 1px solid #eaeaea;
+		overflow: hidden;
+}
+.listview{
+	padding-top: 2.4rem;
+}
+.time{
+	color: #ccc;
+	font-size: .6rem;
+	float: right;
+}
+.header span{
+	font-size: .7rem;
+	-webkit-box-flex:1;
+	display: inherit;
+	text-align: center;
+	-webkit-box-pack: justify;
+	-webkit-box-align: justify;
+	text-align: -webkit-center;
+}
+
